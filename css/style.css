@@ -34,9 +34,10 @@ a {
   line-height: 1.2;
 }
 
-hr {
+.hr {
   width: 25px;
   background-color: #000;
   height: 3px;
   border: none;
+  margin: 0 auto;
 }

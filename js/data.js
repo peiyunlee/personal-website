@@ -27,6 +27,13 @@ const data = [
     imgUrl: "./assets/images/works/4.png",
     color: "#A2BED2",
   },
+  {
+    title: "《Game - WELF》",
+    shortInfo: ["RPG遊戲", "透過遊戲省思環境汙染"],
+    tag: ["Game"],
+    imgUrl: "./assets/images/works/5.png",
+    color: "#A2BED2",
+  },
 ];
 
 export default data;
