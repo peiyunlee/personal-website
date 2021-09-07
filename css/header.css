@@ -1,0 +1,116 @@
+header{
+  background-color: #fff5da;
+}
+
+.header-white {
+  background-color: white;
+}
+
+.header-content {
+  width: 100%;
+  background-color: #fff5da;
+  height: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content-white {
+  background-color: white;
+}
+
+.logo {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  color: #000;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.header-nav {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-text {
+  letter-spacing: 3px;
+}
+
+.link-text:hover {
+  transition: all 0.2s;
+  color: #ffb500;
+}
+
+@media screen and (max-width: 767px) {
+
+  .header-content {
+    transition: background-color 0.2s;
+  }
+
+  .wrapper-hamburger {
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .cross-button {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.2s;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-content_active {
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .header-content_active .header-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+  }
+
+  .header-content_active .logo {
+    color: white;
+  }
+
+  .header-content_active .link-text {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+
+  .header-content_active .wrapper-hamburger {
+    height: 30px;
+    justify-content: center;
+  }
+
+  .header-content_active .cross-button {
+    background-color: white;
+  }
+
+  .header-content_active .cross-button-top {
+    transform: rotate(45deg) translateY(2px);
+  }
+
+  .header-content_active .cross-button-bottom {
+    transform: rotate(-45deg) translateY(-2px);
+  }
+}
