@@ -1,8 +1,6 @@
-import data from './data.js'
+import data from "./data.js";
 
 const filterType = ["All", "Front-end", "UI/UX", "Game"];
-
-let filter = filterType[0];
 
 let listElement;
 let list = "";
@@ -22,11 +20,11 @@ filterType.forEach((item, index) => {
   });
 });
 
-function FilterWorks(filter) {
+function FilterWorks(filter = filterType[0]) {
   let filter_works = data;
 
   if (filter !== filterType[0]) {
-    filter_works = data.filter((item) => item.tag.includes(filter));
+    filter_works = data.filter((item) => item.typeTag.includes(filter));
   } else {
     filter_works = data;
   }
@@ -39,11 +37,11 @@ function renderWork(works = data) {
   list = "";
 
   works.forEach((item, index) => {
-    list += `<div id="${"work" + index}" class="wrapper-work">
-      <div class="work__tag">${item.tag.join(" & ")}</div>
-      <h3 class="work__title">${item.title}</h3>
+    list += `<a href="./work.html?work=${index}"  id="${"work" + index}" class="wrapper-work">
+      <div class="work__tag">${item.typeTag.join(" & ")}</div>
+      <h3 class="work__title">《${item.title}》</h3>
       <p class="work__info">${item.shortInfo.join("<br>")}</p>
-      <img src="${item.imgUrl}" alt="">
+      <img src="${item.mainImgUrl}" alt="">
     </div>`;
   });
 

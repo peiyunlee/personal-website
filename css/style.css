@@ -41,3 +41,17 @@ a {
   border: none;
   margin: 0 auto;
 }
+
+.link-button {
+  display: inline-block;
+  letter-spacing: 2px;
+  background-color: #000;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.link-button:hover {
+  background-color: #ffb500;
+  transition: all 0.2s;
+}

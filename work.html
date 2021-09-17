@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/works.css">
+    <link rel="stylesheet" href="css/work.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 
@@ -29,10 +29,26 @@
         </div>
     </header>
     <main>
-        <section class="section-works">
-            <div class="works-content wrapper-content">
-                <h2 class="works__title section__title">Works</h2>
-                <div class="works-nav">
+        <section class="section-work">
+            <div class="work-content wrapper-content">
+                <a class="work__back" href="./works.html">
+                    <svg class="work__back-img" width="16" height="30" viewBox="0 0 16 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.35 29L2 15.359L15 1" stroke="#C6C6C6" stroke-width="3" />
+                    </svg>
+                    <!-- <img src="./assets/images/works/info/back.png" alt=""> -->
+                    Back to all works
+                </a>
+                <div class="wrapper-info">
+                    <div id="wrapper-info-other" class="wrapper-info-other">
+                        <img id="mainImg" src="" alt="">
+                        <div id="tag" class="wrapper-info-tag">
+                        </div>
+                        <a id="link" href="" class="work-link-button link-button" target="_blank">View Website</a>
+                    </div>
+                    <div id="info" class="wrapper-info-text">
+                        <div id="mainInfo" class="wrapper-main-info">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -52,20 +68,24 @@
                 </div>
                 <div class="footer-nav-list">
                     <div class="footer-nav-list__title">SOCIAL</div>
-                    <a target="_blank" href="https://github.com/peiyunlee" class="footer-nav-list__text link-text">Github</a>
-                    <a target="_blank" href="https://codepen.io/may3256" class="footer-nav-list__text link-text">Codepen</a>
-                    <a target="_blank" href="https://medium.com/@may1092200258" class="footer-nav-list__text link-text">Medium</a>
+                    <a target="_blank" href="https://github.com/peiyunlee"
+                        class="footer-nav-list__text link-text">Github</a>
+                    <a target="_blank" href="https://codepen.io/may3256"
+                        class="footer-nav-list__text link-text">Codepen</a>
+                    <a target="_blank" href="https://medium.com/@may1092200258"
+                        class="footer-nav-list__text link-text">Medium</a>
                 </div>
                 <div class="footer-nav-list">
                     <div class="footer-nav-list__title">CONTACT</div>
-                    <a target="_blank" href="https://www.facebook.com/may3256" class="footer-nav-list__text link-text">Facebook</a>
+                    <a target="_blank" href="https://www.facebook.com/may3256"
+                        class="footer-nav-list__text link-text">Facebook</a>
                     <div class="footer-nav-list__text">may1092200258@gmail.com</div>
                 </div>
             </nav>
         </div>
     </footer>
     <script src="js/index.js"></script>
-    <script type="module"  src="js/work.js"></script>
+    <script type="module" src="js/work.js"></script>
 </body>
 
 </html>
