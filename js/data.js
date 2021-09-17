@@ -140,7 +140,7 @@ const data = [
     typeTag: ["Game"],
     mainImgUrl: "./assets/images/works/5.png",
     color: "#A2BED2",
-    infoTag: ["企劃", "程式"],
+    infoTag: ["企劃", "程式", "Unity"],
     link: {
       type: "video",
       url: "https://www.youtube.com/watch?v=rSlw0u-UCIg",
@@ -158,8 +158,7 @@ const data = [
       },
       {
         type: "text",
-        content:
-          "考驗玩家的反應能力,能不間斷的即時切換不同技能。",
+        content: "考驗玩家的反應能力,能不間斷的即時切換不同技能。",
       },
       {
         type: "title",
@@ -179,6 +178,49 @@ const data = [
         content:
           "利用每個水精靈不同的攻擊技能以應對各種 Boss,玩家要思考如何選擇要攜帶的水精靈才能順利破關。",
       },
+    ],
+  },
+  {
+    title: "找食",
+    shortInfo: ["美食收藏評論APP", "尋找屬於你的美食之路"],
+    typeTag: ["UI/UX"],
+    mainImgUrl: "./assets/images/works/6.png",
+    color: "#95D7D3",
+    infoTag: ["Adobe XD", "Mockup"],
+    infoImgUrl: "./assets/images/works/info/6.png",
+    info: [
+      {
+        type: "text",
+        content:
+          "多功能搜尋美食店家，並且具有收藏評論的功能，利用找食找到你的美食之路。",
+      },
+      { type: "imgUrl", content: "./assets/images/works/info/6-info-1.png" },
+    ],
+  },
+  {
+    title: "MO CHI",
+    shortInfo: ["PC 雙人遊戲", "2D動作益智類型"],
+    typeTag: ["Game"],
+    mainImgUrl: "./assets/images/works/7.png",
+    color: "#9EBDC2",
+    link: {
+      type: "video",
+      url: "https://www.youtube.com/watch?v=nT7ilgTc0Qw",
+    },
+    infoTag: ["企劃", "程式", "Unity"],
+    infoImgUrl: "./assets/images/works/info/7.png",
+    info: [
+      {
+        type: "text",
+        content:
+          "背景圍繞在月兔搗麻糬發生意外的故事，玩家扮演有黏性的麻糬Mo，出發收集四散的小麻糬們，讓月兔的作業能回到正軌。 ",
+      },
+      {
+        type: "text",
+        content:
+          "利用麻糬的黏性特點，結合口味顏色的限制和物理特性應用到玩法上，玩家需操縱主角麻糬，利用跳躍、黏性、彈射等技能，通過各種有趣且貼合玩法的機關障礙，共同思考合作來順利通關。",
+      },
+      { type: "imgUrl", content: "./assets/images/works/info/7-info-1.png" },
     ],
   },
 ];

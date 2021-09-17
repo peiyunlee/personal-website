@@ -13,6 +13,7 @@ function setMainImg() {
 
   element.setAttribute("src", work.infoImgUrl);
 }
+
 function setColor() {
   let element = document.getElementById("wrapper-info-other");
 
@@ -32,6 +33,11 @@ function renderTag() {
 
 function setLink() {
   let element = document.getElementById("link");
+  
+  if(work.link === undefined) {
+    element.style["display"] = "none";
+    return;
+  }
 
   if (work.link.type === "website") element.textContent = "View Website";
   else if (work.link.type === "video") element.textContent = "View Video";
