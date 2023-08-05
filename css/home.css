@@ -128,6 +128,26 @@
   margin-bottom: 10px;
 }
 
+.wrapper-work-cover{
+  position: relative;
+}
+
+.wrapper-work-cover img{
+  width: 300px;
+  height: 300px;
+}
+
+.wrapper-work-cover span{
+  position: absolute;
+  padding: 1px 7px;
+  background-color: rgba(0,0,0,.2);
+  color: white;
+  font-size: 16px;
+  margin-top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .work__position {
   height: 46px;
   color: #777;
