@@ -8,7 +8,7 @@ const data = [
     infoTag: ["React", "Figma", "UX"],
     link: {
       type: "website",
-      url: "https://ray2021.pdis.nat.gov.tw/2020/",
+      url: "https://ray2020.pdis.nat.gov.tw/taipei_service/",
     },
     infoImgUrl: "./assets/images/works/info/1.png",
     info: [
@@ -31,17 +31,94 @@ const data = [
     ],
   },
   {
+    title: "台灣自行車資訊網",
+    shortInfo: ["整合各縣市自行車路線", "與 YouBike 站點查詢服務"],
+    typeTag: ["Front-end", "Back-end", "UI"],
+    mainImgUrl: "./assets/images/works/2.png",
+    color: "#E6E6E6",
+    infoTag: ["React", "FastAPI", "ORM"],
+    link: {
+      type: "website",
+      url: "https://the-f2e-3rd-bike.vercel.app/route/district",
+    },
+    infoImgUrl: "./assets/images/works/info/2.png",
+    info: [
+      {
+        type: "text",
+        content:
+          "整合各縣市自行車相關最新資訊，串接 TDX 運輸資料流通服務平臺的全臺自行車路線資訊與 YouBike 站點 API 提供查詢服務，並且可進行登入收藏路線與常用站點。",
+      }
+    ],
+  },
+  {
+    title: "Greenable",
+    shortInfo: ["2022 APP移動應用創新競賽晉級作品", "結合環保議題與養成遊戲"],
+    typeTag: ["iOS develop"],
+    mainImgUrl: "./assets/images/works/3.png",
+    color: "#9EC9EB",
+    infoTag: ["Swift", "Xcode"],
+    link: {
+      type: "website",
+      url: "https://github.com/NTUE-Arduino-Lab/APP-Greenabal",
+    },
+    infoImgUrl: "./assets/images/works/info/3.png",
+    info: [
+      {
+        type: "text",
+        content:
+          "將環保與養成遊戲做結合，培養民眾環保意識與知識。使用 Swift 製作介面與2D遊戲，並結合財政部電子發票應用API串接獲取使用者消費資料。",
+      }
+    ],
+  },
+  {
+    title: "Multic",
+    shortInfo: ["音樂科普網站", "尋找你要的音樂風格"],
+    typeTag: ["Front-end"],
+    mainImgUrl: "./assets/images/works/4.png",
+    color: "#EAAED6",
+    infoTag: ["CSS-Anim", "JS", "GSAP"],
+    link: {
+      type: "website",
+      url: "https://peiyunlee.github.io/multic/",
+    },
+    infoImgUrl: "./assets/images/works/info/4.png",
+    info: [
+      {
+        type: "text",
+        content:
+          "統整各個流行樂派的資料與歷史、解說專有名詞，並列出每個樂派的音樂代表作節錄，讓尋找音樂靈感的目標客戶可以進行播放聆聽。",
+      },
+      {
+        type: "title",
+        content: "multiple + music + city = Multic",
+      },
+      {
+        type: "text",
+        content: "每個流派都是獨立的城市或是小島，呈現每個樂派的風格以及特色。",
+      },
+      {
+        type: "title",
+        content: "音樂律動感",
+      },
+      {
+        type: "text",
+        content:
+          "利用視覺上的立體感加上多樣的網頁互動動畫，傳達音樂的律動和旋律感。",
+      },
+    ],
+  },
+  {
     title: "呷蝦咪",
     shortInfo: ["外賣點餐平台", "提供店家外賣以及顧客點餐的服務"],
     typeTag: ["Front-end", "UI/UX"],
-    mainImgUrl: "./assets/images/works/2.png",
-    color: "#DDAD97",
+    mainImgUrl: "./assets/images/works/5.png",
+    color: "#E8C1AC",
     infoTag: ["Vue", "Firebase"],
     link: {
       type: "website",
       url: "https://test-firestore-847fa.firebaseapp.com/",
     },
-    infoImgUrl: "./assets/images/works/info/2.png",
+    infoImgUrl: "./assets/images/works/info/5.png",
     info: [
       {
         type: "text",
@@ -69,54 +146,17 @@ const data = [
     ],
   },
   {
-    title: "Multic",
-    shortInfo: ["音樂科普網站", "尋找你要的音樂風格"],
-    typeTag: ["Front-end"],
-    mainImgUrl: "./assets/images/works/3.png",
-    color: "#DD9FBE",
-    infoTag: ["CSS-Anim", "JS", "GSAP"],
-    link: {
-      type: "website",
-      url: "https://peiyunlee.github.io/multic/",
-    },
-    infoImgUrl: "./assets/images/works/info/3.png",
-    info: [
-      {
-        type: "text",
-        content:
-          "統整各個流行樂派的資料與歷史、解說專有名詞，並列出每個樂派的音樂代表作節錄，讓尋找音樂靈感的目標客戶可以進行播放聆聽。",
-      },
-      {
-        type: "title",
-        content: "multiple + music + city = Multic",
-      },
-      {
-        type: "text",
-        content: "每個流派都是獨立的城市或是小島，呈現每個樂派的風格以及特色。",
-      },
-      {
-        type: "title",
-        content: "音樂律動感",
-      },
-      {
-        type: "text",
-        content:
-          "利用視覺上的立體感加上多樣的網頁互動動畫，傳達音樂的律動和旋律感。",
-      },
-    ],
-  },
-  {
     title: "WELF",
     shortInfo: ["遊戲官網 —「WELF」", "介紹遊戲玩法以及故事背景"],
     typeTag: ["Front-end"],
-    mainImgUrl: "./assets/images/works/4.png",
-    color: "#A2BED2",
+    mainImgUrl: "./assets/images/works/6.png",
+    color: "#CBD9E5",
     infoTag: ["CSS-Anim", "JS"],
     link: {
       type: "website",
       url: "https://peiyunlee.github.io/web-welf/",
     },
-    infoImgUrl: "./assets/images/works/info/4.png",
+    infoImgUrl: "./assets/images/works/info/6.png",
     info: [
       {
         type: "text",
@@ -138,14 +178,14 @@ const data = [
     title: "Game - WELF",
     shortInfo: ["RPG遊戲", "透過遊戲省思環境汙染"],
     typeTag: ["Game"],
-    mainImgUrl: "./assets/images/works/5.png",
-    color: "#A2BED2",
+    mainImgUrl: "./assets/images/works/7.png",
+    color: "#B0CBDF",
     infoTag: ["企劃", "程式", "Unity"],
     link: {
       type: "video",
       url: "https://www.youtube.com/watch?v=rSlw0u-UCIg",
     },
-    infoImgUrl: "./assets/images/works/info/5.png",
+    infoImgUrl: "./assets/images/works/info/7.png",
     info: [
       {
         type: "text",
@@ -184,10 +224,10 @@ const data = [
     title: "找食",
     shortInfo: ["美食收藏評論APP", "尋找屬於你的美食之路"],
     typeTag: ["UI/UX"],
-    mainImgUrl: "./assets/images/works/6.png",
-    color: "#95D7D3",
+    mainImgUrl: "./assets/images/works/8.png",
+    color: "#89D4D9",
     infoTag: ["Adobe XD", "Mockup"],
-    infoImgUrl: "./assets/images/works/info/6.png",
+    infoImgUrl: "./assets/images/works/info/8.png",
     info: [
       {
         type: "text",
@@ -201,14 +241,14 @@ const data = [
     title: "MO CHI",
     shortInfo: ["PC 雙人遊戲", "2D動作益智類型"],
     typeTag: ["Game"],
-    mainImgUrl: "./assets/images/works/7.png",
-    color: "#9EBDC2",
+    mainImgUrl: "./assets/images/works/9.png",
+    color: "#A8BCDA",
     link: {
       type: "video",
       url: "https://www.youtube.com/watch?v=nT7ilgTc0Qw",
     },
     infoTag: ["企劃", "程式", "Unity"],
-    infoImgUrl: "./assets/images/works/info/7.png",
+    infoImgUrl: "./assets/images/works/info/9.png",
     info: [
       {
         type: "text",

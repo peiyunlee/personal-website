@@ -1,36 +1,36 @@
 import data from "./data.js";
 
-const filterType = ["All", "Front-end", "UI/UX", "Game"];
+// const filterType = ["All", "Front-end", "Back-end", "UI/UX", "Game"];
 
 let listElement;
 let list = "";
 
-filterType.forEach((item, index) => {
-  list += `<div id="${"filter" + index}" class="works-nav__item">${item}</div>`;
-});
+// filterType.forEach((item, index) => {
+//   list += `<div id="${"filter" + index}" class="works-nav__item">${item}</div>`;
+// });
 
-listElement = document.querySelector(".works-nav");
-listElement.innerHTML = list;
+// listElement = document.querySelector(".works-nav");
+// listElement.innerHTML = list;
 
-filterType.forEach((item, index) => {
-  let filterBtn = document.getElementById("filter" + index);
+// filterType.forEach((item, index) => {
+//   let filterBtn = document.getElementById("filter" + index);
 
-  filterBtn.addEventListener("click", function (event) {
-    FilterWorks(event.target.innerHTML);
-  });
-});
+//   filterBtn.addEventListener("click", function (event) {
+//     FilterWorks(event.target.innerHTML);
+//   });
+// });
 
-function FilterWorks(filter = filterType[0]) {
-  let filter_works = data;
+// function FilterWorks(filter = filterType[0]) {
+//   let filter_works = data;
 
-  if (filter !== filterType[0]) {
-    filter_works = data.filter((item) => item.typeTag.includes(filter));
-  } else {
-    filter_works = data;
-  }
+//   if (filter !== filterType[0]) {
+//     filter_works = data.filter((item) => item.typeTag.includes(filter));
+//   } else {
+//     filter_works = data;
+//   }
 
-  renderWork(filter_works);
-}
+//   renderWork(filter_works);
+// }
 
 function renderWork(works = data) {
   listElement = document.querySelector("#works-list");
